@@ -95,5 +95,7 @@ fn main() {
     println!("Variance:{}", get_var(n as i32, &mut stats));
     println!("Skewness:{}", get_sk(n as i32, &mut stats));
     println!("Kurtosis:{}", get_kurt(n as i32, &mut stats));
+
+    println!("stats1:{} stats2:{} stats3:{}", stats[1], stats[2], stats[3]);
 }
 
