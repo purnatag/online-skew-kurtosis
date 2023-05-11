@@ -48,7 +48,7 @@ fn get_sk(n:i32, stats:&mut [f64]) -> f64{
 }
 
 fn get_kurt(n:i32, stats:&mut [f64]) -> f64{
-    return ((n as f64)*stats[3])/(stats[2]*stats[2]);
+    return ((n as f64)*stats[3])/(stats[1]*stats[1]);
 }
 
 fn main() {
